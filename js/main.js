@@ -1,15 +1,17 @@
 var mySwiper = new Swiper('.swiper-container', {
     slidesPerView: 1,
-    loop: true,
+     loop: true,
     navigation: {
     	nextEl: '.arrow',	
     },
+
     breakpoints: {
-	640: {    
-    	   slidesPerView: 2,
-   	}
-   }
- });
+    	640: {
+    		slidesPerView: 2,
+    	}
+    }
+
+   });
 
 var menuButton = document.querySelector('.menu-button');
 var menu = document.querySelector('.header')
