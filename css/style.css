@@ -317,6 +317,7 @@ body {
 		border: none;
 		background-color: #fff;
 		cursor: pointer;
+		z-index: 9;
 	}
 
 	.menu-button:before {
@@ -370,6 +371,7 @@ body {
 		background-color: #9D2929;
 		width: 250px;
 		padding-bottom: 40px;
+		z-index: 1;
 	}
 
 	.header-active {
@@ -404,6 +406,7 @@ body {
 
 	.swiper-container {
 		width: 80%;
+		box-sizing: border-box;
 	}
 
 	.main-content {
