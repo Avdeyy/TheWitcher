@@ -4,8 +4,8 @@ var mySwiper = new Swiper('.swiper-container', {
     navigation: {
     	nextEl: '.arrow',	
     },
-    slidesPerView: 2
-   
+    slidesPerView: 2,
+   }
  });
 
 var menuButton = document.querySelector('.menu-button');
